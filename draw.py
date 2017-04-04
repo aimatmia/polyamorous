@@ -3,7 +3,13 @@ from matrix import *
 from math import *
 
 def add_polygon( points, x0, y0, z0, x1, y1, z1, x2, y2, z2 ):
-    points = generate_sphere(cx, cy, cz, r, step)
+    points = 
+    points[0] = [x0, y0, z0]
+    points[1] = [x0+1, y0+1, z0]
+    points[2] = [x0+1, y0+11, z0]
+    points[1][0] = x0
+    points[1][1] = y0
+    points[1][2] = z0
 
 def draw_polygons( points, screen, color ):
     pass
